@@ -1,0 +1,185 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Smooch&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato',sans-serif ;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #0c3d1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo{
+    font-size: 25px ;
+    color: #fff;
+    text-decoration: solid;
+    font-weight: 600;
+}
+nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+
+nav a:hover,
+nav a.current{
+    color: rgb(34, 185, 0);
+}
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(234, 234, 234);
+}
+
+
+body{
+    margin: 0;
+    font-family: serif;
+    background: rgb(234, 234, 234);
+
+
+}
+
+h1{
+    font-family:Verdana, sans-serif;
+    margin: 0px ;
+    margin-top: -290px;
+    font-size: 50px;
+}
+
+h2{
+    font-family: Verdana,sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: -190px;
+    margin-bottom: 10px;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 10px;
+    
+
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float:left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background:rgb(234, 234, 234);
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px , -8px);
+
+}
+.homepage-image{
+    height: 500px;
+    width:500px;
+    text-align: right;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p{
+    text-align: center;
+    color: #b2bec2;
+    padding-top: 0 8px ;
+
+}
+
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+
+}
+button:hover{
+    color: #98c408;
+}
+
+.buy-shirt{
+    background: black
+}
+.buy-bat{
+    background: rgb(17, 102, 88);
+}
+.buy-pads{
+    background: rgb(17, 102, 88);
+}
+.buy-helmet{
+    background: rgb(17, 102, 88);
+}
+.buy-shoes{
+    background: #8e154b;
+}
+
+.buy-hot{
+    background: #c55d2c;
+}
